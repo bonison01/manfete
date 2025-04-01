@@ -63,11 +63,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0 text-festival-gold" />
-                <span className="text-gray-300">123 Festival Avenue, City Center</span>
+                <span className="text-gray-300">Manipur University, Canchipur</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0 text-festival-gold" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+91 123456789</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0 text-festival-gold" />

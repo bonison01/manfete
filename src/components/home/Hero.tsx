@@ -42,14 +42,14 @@ const Hero = () => {
 
   return (
     <div className="relative bg-festival-dark py-20 text-white">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('https://drive.google.com/file/d/1ah7fU37QZWzdzfVMDvc4iplMSQ0Qpq8m/view?usp=sharing')] bg-cover bg-center opacity-30"></div>
       <div className="container relative z-10 mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="festival-heading mb-4 animate-fade-in text-festival-gold">
             MANFETE <span className="text-white">2025</span>
           </h1>
           <p className="festival-subheading mb-8 animate-fade-in text-gray-300">
-            Celebrating Culture, Art & Community
+          Join us for three days of creativity, competition, and celebration at Manfete 2025.
           </p>
           
           <div className="mb-8 flex items-center justify-center space-x-2 sm:space-x-4 text-white">
@@ -95,7 +95,7 @@ const Hero = () => {
             <Button asChild size="lg" className="animate-pulse-light rounded-full bg-festival-purple hover:bg-festival-purple/90">
               <Link to="/register">Register Now</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="rounded-full border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" size="lg" className="rounded-full border-white text-black hover:bg-white/10">
               <Link to="/events">View Events</Link>
             </Button>
           </div>
